@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/IndexOfTest.java",
+      "testCases": [
+        {
+          "methodName": "indexTest1",
+          "label": "Test finding an element in the middle of the array",
+          "description": "Verifies that the index of the value '7' in the array {0, 1, 2, 7, 4} is correctly identified as 3."
+        },
+        {
+          "methodName": "indexTest2",
+          "label": "Test finding the first element in the array",
+          "description": "Verifies that the index of the value '9' in the array {9, 5, 8, 7, 1} is correctly identified as 0 (the first position)."
+        },
+        {
+          "methodName": "indexTest3",
+          "label": "Test handling a non-existent element (returns -1)",
+          "description": "Verifies that when the target value '3' is not found in the array {9, 5, 8, 7, 1}, the getIndex method correctly returns -1."
+        }
+      ]
+    }
+  ]
+}
